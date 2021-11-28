@@ -1,8 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
 /* test comment*/
 }
+
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
@@ -30,11 +37,6 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 footer {
     background: #fce138;
     width: 100%;
@@ -57,6 +59,7 @@ footer a {
 section {
     padding: 60px;
 }
+
 .hero {
     background-image: url("../images/hero-bg.jpg");
     height: 600px;
@@ -65,6 +68,7 @@ section {
     position: relative;
 
 }
+
 .hero-form {
     color: #024e76;
     padding: 20px;
@@ -76,15 +80,13 @@ section {
     right: 140px;
 }
 .hero-form h3 {
-    font-size: 50px;
+    font-size: 24px;
     margin: 0px;
-
 }
 .hero-form p {
     margin: 5px 0 15px 0;
 }
 .form-input {
-    font-size: 35px;
     border: solid 1px #024e76;
     display: block;
     padding: 7px 15px;
@@ -152,3 +154,41 @@ section {
     border-color: #39a6b2;
 }
 
+.trainers {
+    text-align: center;
+}
+.trainer {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background: #024e76;
+    color: #fce138;
+    overflow: auto;
+}
+.trainer img {
+    width: 35%;
+    float: left;
+}
+.trainer-bio {
+    padding: 35px;
+    float: left;
+    width: 65%;
+}
+.text-left {
+    text-align: left;
+}
+.text-right {
+    text-align: right;
+}
+.trainer-bio h3 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+.trainer-bio h4 {
+    font-weight: lighter;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+.trainer-bio p {
+    font-size: 17px;
+    line-height: 1.3;
+}
