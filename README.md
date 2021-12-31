@@ -12,3 +12,5 @@ https://lernantino.github.io/run-buddy/
 
 ## Contribution
 Made with emoji:<3 by WaltWalker
+
+# Run Buddy inc.
